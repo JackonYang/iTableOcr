@@ -1,5 +1,7 @@
 name: ICDAR 2003
 url: http://www.imglab.org/db/files/ICDAR2003-SceneTrialTrain-GT4.tar.gz
+score: 2
+comment: 不推荐使用。总体不如 ICDAR 2013. gt 标注也比较另类，
 description: |
   包含251个水平文字的完整场景图像和860张有单词被裁剪的图像。
 
