@@ -1,5 +1,7 @@
 # .gitignore by JackonYang
 
+datasets/raw/
+
 output-dir
 .jcache-data
 .private-data
