@@ -21,9 +21,19 @@ OKR 目标拆解：
 
 ### TODO
 
+进展: [docs/working-logs.md](docs/working-logs.md)
+
 - [ ] 预研。重点是算法。框架也要简单了解一下。
 - [ ] 数据。收集、清洗。可以持续迭代数据的标准协议。
 - [ ] 标注策略。GT 怎么来，关键点有几个、怎么标。
 - [ ] 模型训练
 - [ ] 模型部署
 - [ ] pre & post pipeline
+
+## 搭建开发环境
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+注意，push/pull dataset 需要配置 阿里云 OSS 的 token。暂不公开。（可以自行从公开数据源下载）
