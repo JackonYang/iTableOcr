@@ -10,7 +10,7 @@ DATASETS_ROOT = os.path.abspath(
 
 META_ROOT = os.path.join(DATASETS_ROOT, 'metadata')
 OUT_FILENAME = os.path.join(DATASETS_ROOT, 'README.md')
-TEMPLATE_DIR = os.path.join(DATASETS_ROOT, 'scripts/templates')
+TEMPLATE_DIR = os.path.join(DATASETS_ROOT, 'templates')
 TEMPLATE_NAME = 'readme.md'
 
 
