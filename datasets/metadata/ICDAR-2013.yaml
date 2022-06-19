@@ -1,6 +1,6 @@
 name: ICDAR 2013
 url: http://rrc.cvc.uab.es/?ch=2&com=downloads
-score: 4
+score: ⭐️⭐️⭐️⭐️
 comment: 不错的 baseline 数据。真实场景，但偏简单。
 description: |
   聚焦场景文本的 229 个训练图像和 233 个测试图像。继承了 ICDAR 2003 数据集的大部分样本。
