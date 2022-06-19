@@ -30,10 +30,27 @@ OKR 目标拆解：
 - [ ] 模型部署
 - [ ] pre & post pipeline
 
-## 搭建开发环境
+## 开发文档
+
+### 搭建开发环境
 
 ```bash
-pip install -r requirements-dev.txt
+make setup
 ```
 
 注意，push/pull dataset 需要配置 阿里云 OSS 的 token。暂不公开。（可以自行从公开数据源下载）
+
+### 数据集相关
+
+[Dataset 信息汇总](datasets/README.md)
+
+此文件是自动生成的，请不要直接修改。模版：[datasets/templates/readme.md](datasets/templates/readme.md), 数据集描述在 [datasets/metadata/*.yaml](datasets/metadata/) 中
+
+数据集原始文件，使用 DVC 管理。用法参考: <https://github.com/JackonYang/paper-reading/blob/master/01-zettelkasten/05-Notes%20Block/DVC-usage.md>
+
+```bash
+# 构建用于 training & testing 的数据集
+bash datasets/scripts/run_pipeline.sh
+# 更新 datasets README(信息汇总)
+make gen-datasets-readme
+```
