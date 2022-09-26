@@ -36,6 +36,10 @@ OKR 目标拆解：
 - [ ] benchmark 测试 for release
 - [ ] pre & post pipeline
 
+### 潜在需求
+
+1. OCR 拍照查中文字典，小学文凭识字有限
+
 ## 开发文档
 
 ### 搭建开发环境
