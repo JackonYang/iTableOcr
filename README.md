@@ -24,10 +24,16 @@ OKR 目标拆解：
 进展: [docs/working-logs.md](docs/working-logs.md)
 
 - [ ] 预研。重点是算法。框架也要简单了解一下。
+  - [ ] OCR 的主流方法调研 & report
+  - [ ] TableOCR 的主流方法调研 & report
 - [ ] 数据。收集、清洗。可以持续迭代数据的标准协议。
 - [ ] 标注策略。GT 怎么来，关键点有几个、怎么标。
-- [ ] 模型训练
+- [ ] 模型训练，先做 OCR，再做 TableOCR
+  - [ ] 建立 baseline model
+  - [ ] eval 脚本
+  - [ ] 模型性能调优迭代
 - [ ] 模型部署
+- [ ] benchmark 测试 for release
 - [ ] pre & post pipeline
 
 ## 开发文档
